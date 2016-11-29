@@ -1,5 +1,10 @@
+@import url(http://weloveiconfonts.com/api/?family=brandico|entypo);
+
+
+
 * {
   box-sizing: border-box; }
+
 
 body {
   padding: 0;
@@ -10,7 +15,8 @@ body {
    sans-serif ;
   font-size: 16px;
   line-height: 1.5;
-  color: #606c71; }
+  color: #606c71;
+background-color: #fff5e8; }
 
 a {
   color: #1e6bb8;
@@ -57,6 +63,7 @@ a {
       margin-left: 0; } }
 .project-logo {
   text-align: center;
+  padding-top: 2em;
 }
 .page-header {
   color: #EF4D76;
@@ -66,7 +73,9 @@ a {
       }
 @media screen and (min-width: 64em) {
   .page-header {
-    padding: 6em 1em 3em 1em; } }
+    padding: 6em 1em 3em 1em; }
+
+    } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
@@ -78,7 +87,7 @@ a {
 
 @media screen and (max-width: 42em) {
   .page-header {
-    padding: 3rem 3rem 1rem; }
+  padding: 3rem 0rem 0rem; }
   .project-logo svg {
     width: 80%;
     height: 80%; }
@@ -249,7 +258,7 @@ opacity: 1;
   font-weight: bold; }
 
 .site-footer-credits {
-  color: #819198; }
+  color: #eff0f1; }
 
 @media screen and (min-width: 64em) {
   .site-footer {
@@ -263,5 +272,136 @@ opacity: 1;
   .site-footer {
     font-size: 0.9rem; } }
 .heyfam {
-  background-color: #EF4D76;
+  background: #e45959;
+      background: -moz-linear-gradient(-45deg, #e45959 0%, #ef4d76 100%);
+      background: -webkit-linear-gradient(-45deg, #e45959 0%,#ef4d76 100%);
+      background: linear-gradient(135deg, #e45959 0%,#ef4d76 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e45959', endColorstr='#ef4d76',GradientType=1 );
+      padding: 2em 1em;
+      padding-top: 2em;
+      height: 8rem;
+      width: 100%;
+      position: absolute;;
+      overflow: hidden;
+      bottom: 0;
 }
+div#conversational-form {
+  height: 450px;
+top: 685px;
+margin: 2em 25em 2em 25em;
+z-index: 20;
+}
+form#my-form-element {
+    visibility: hidden;
+}
+.foot {
+  color: #fff;
+
+}
+.main-content {
+  display:none;
+}
+
+.bbox {
+    padding-top: 1em;
+    text-align: center;
+}
+
+.cbox {
+    padding-bottom: 1em;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+div.social-buttons {
+  text-align: center;
+
+}
+
+div.social-buttons li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+div.social-buttons li a {
+  width: 60px;
+  height: 60px;
+  display: block;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 60px;
+  color: white;
+}
+
+div.social-buttons li a {
+  color: #f3f6fa;
+  background: rgba(255, 255, 255, 0.37);
+
+}
+
+
+/*Demo 1*/
+div#demo1 li a {
+  transition: transform 0.2s linear;
+}
+
+div#demo1 li:hover a {
+  transform: translateY(-10px);
+}
+
+
+@media screen and (min-width: 64em)  {
+  div.social-buttons li a {
+    width: 100px;
+    height: 100px;
+    display: block;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 3.5em;
+    line-height: 6rem;
+  }
+}
+@media screen and (min-width: 64em) {
+div.social-buttons li {
+  display: inline-block;
+  margin: 0 4em;
+}}
+.contact {
+  text-transform: uppercase;
+  letter-spacing: 1em;
+  text-indent: 1em;
+  font-size: .9rem;
+}
+@media screen and (min-width: 64em) {
+  .contact {
+    text-transform: uppercase;
+    letter-spacing: 1em;
+    text-indent: 1em;
+    font-size: 1.2rem;
+  }}
+
+@media screen and (max-width: 42em) {
+  .heyfam {
+      background: #e45959;
+      background: -moz-linear-gradient(-45deg, #e45959 0%, #ef4d76 100%);
+      background: -webkit-linear-gradient(-45deg, #e45959 0%,#ef4d76 100%);
+      background: linear-gradient(135deg, #e45959 0%,#ef4d76 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e45959', endColorstr='#ef4d76',GradientType=1 );
+      padding: 0em 1em;
+      padding-top: 1.9em;
+      height: 15em;
+      width: 100%;
+      overflow-x: hidden;
+      position: absolute;}}
