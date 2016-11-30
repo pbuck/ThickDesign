@@ -73,7 +73,7 @@ a {
       }
 @media screen and (min-width: 64em) {
   .page-header {
-    padding: 6em 1em 3em 1em; }
+        padding: 3em 1em 3em 1em; }
 
     } }
 
@@ -273,17 +273,17 @@ opacity: 1;
     font-size: 0.9rem; } }
 .heyfam {
   background: #e45959;
-      background: -moz-linear-gradient(-45deg, #e45959 0%, #ef4d76 100%);
-      background: -webkit-linear-gradient(-45deg, #e45959 0%,#ef4d76 100%);
-      background: linear-gradient(135deg, #e45959 0%,#ef4d76 100%);
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e45959', endColorstr='#ef4d76',GradientType=1 );
-      padding: 2em 1em;
-      padding-top: 2em;
-      height: 8rem;
-      width: 100%;
-      position: absolute;;
-      overflow: hidden;
-      bottom: 0;
+background: -moz-linear-gradient(-45deg, #e45959 0%, #ef4d76 100%);
+background: -webkit-linear-gradient(-45deg, #e45959 0%,#ef4d76 100%);
+background: linear-gradient(135deg, #e45959 0%,#ef4d76 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e45959', endColorstr='#ef4d76',GradientType=1 );
+padding: 2em 1em;
+padding-top: 1.5em;
+height: 11rem;
+width: 100%;
+position: absolute;
+overflow: hidden;
+bottom: 0;``
 }
 div#conversational-form {
   height: 450px;
@@ -364,13 +364,13 @@ div#demo1 li:hover a {
 
 @media screen and (min-width: 64em)  {
   div.social-buttons li a {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     display: block;
     border-radius: 50px;
     text-decoration: none;
-    font-size: 3.5em;
-    line-height: 6rem;
+    font-size: 2em;
+    line-height: 4.6rem;
   }
 }
 @media screen and (min-width: 64em) {
@@ -387,9 +387,10 @@ div.social-buttons li {
 @media screen and (min-width: 64em) {
   .contact {
     text-transform: uppercase;
-    letter-spacing: 1em;
-    text-indent: 1em;
-    font-size: 1.2rem;
+        letter-spacing: 1em;
+        text-indent: 1em;
+        font-size: 1.2rem;
+        margin: 0;
   }}
 
 @media screen and (max-width: 42em) {
